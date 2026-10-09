@@ -73,7 +73,7 @@ def pcwormUnionMember : UnionMembership :=
   { member_id := "pcworm"
     repo := "pCwOrM/gap-lean4-port"
     module := "RequestProject.Gap"
-    capability_set := ["formal-verification", "lean4", "gap", "rung-0-5", "algebra", "plaque"]
+    capability_set := ["formal-verification", "lean4", "gap", "rung-0-5", "algebra", "tensor-complexity", "schonhage-bounds", "carrier-symmetry", "plaque"]
     status := "lodge-table" }
 
 /-- The union roster includes the lodge-table members. --/

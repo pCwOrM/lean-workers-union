@@ -1,0 +1,53 @@
+{
+  "schema": "harmonic.lodge-task-manifest/1",
+  "lodge_table": "ChoirUnion-LodgeTable-v1",
+  "members": [
+    "aristotle",
+    "kant",
+    "cf-os",
+    "copilot",
+    "pcworm"
+  ],
+  "active_tasksets": [
+    {
+      "task_id": "TENSOR-WIRE-RECORD-001",
+      "origin_member": "pcworm",
+      "repo": "pCwOrM/gap-lean4-port",
+      "title": "Machine-Certified Schönhage Trilinear Multiplication Wire Width Bound (W = 176,906,915)",
+      "target_file": "scratch_mult_bounds/formal/lean/SchonhageTensorMatch.lean",
+      "theorems": [
+        "SchonhageTensor.wire_width_reduction",
+        "SchonhageTensor.certified_W_exact",
+        "SchonhageTensor.AB_strictly_improves",
+        "SchonhageTensor.kappa_strictly_improves",
+        "SchonhageTensor.kappa_gain_exceeds_prior_leap"
+      ],
+      "required_gate": "gokujo-1.0.0",
+      "status": "QUEUED_FOR_DISPATCH",
+      "admitted_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "task_id": "TENSOR-CARRIER-SYM-002",
+      "origin_member": "pcworm",
+      "repo": "pCwOrM/gap-lean4-port",
+      "title": "Invariance of Carrier Matching and Wire Width under Automorphism Groups Aut(G_h)",
+      "target_file": "scratch_mult_bounds/formal/lean/SchonhageTensorCarrierSymmetry.lean",
+      "theorems": [
+        "SchonhageCarrierSymmetry.matching_card_invariant",
+        "SchonhageCarrierSymmetry.active_roles_invariant",
+        "SchonhageCarrierSymmetry.wire_width_orbit_invariant"
+      ],
+      "required_gate": "gokujo-1.0.0",
+      "status": "QUEUED_FOR_DISPATCH",
+      "admitted_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ]
+}

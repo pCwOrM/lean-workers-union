@@ -64,7 +64,7 @@ def pcwormIdentity : MemberIdentity :=
   { member_id := "pcworm"
     repo := "pCwOrM/gap-lean4-port"
     public_key := "pcworm-lodge-plaque"
-    capabilities := ["formal-verification", "lean4", "gap", "rung-0-5", "algebra", "plaque"] }
+    capabilities := ["formal-verification", "lean4", "gap", "rung-0-5", "algebra", "tensor-complexity", "schonhage-bounds", "carrier-symmetry", "plaque"] }
 
 /-- The identity component must remain stable across a legal transition. --/
  theorem transition_keeps_identity
