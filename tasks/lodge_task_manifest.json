@@ -48,6 +48,42 @@
         "Classical.choice",
         "Quot.sound"
       ]
+    },
+    {
+      "task_id": "WRPM-LAYER3-CH21-RELATIONS",
+      "origin_member": "pcworm",
+      "collaborator_member": "aristotle",
+      "repo": "pCwOrM/gap-lean4-port",
+      "title": "Principia Mathematica Chapter *21 (General Theory of Relations) Formalization in Lean 4",
+      "target_file": "docs/principia_wrpm_formalization/Relations.lean",
+      "theorems": [
+        "Principia.Part1.Section3.ast_21_02",
+        "Principia.Part1.Section3.ast_21_06",
+        "Principia.Part1.Section3.ast_21_15",
+        "Principia.Part1.Section3.ast_21_18",
+        "Principia.Part1.Section3.ast_21_191",
+        "Principia.Part1.Section3.ast_21_2",
+        "Principia.Part1.Section3.ast_21_21",
+        "Principia.Part1.Section3.ast_21_22",
+        "Principia.Part1.Section3.ast_21_23",
+        "Principia.Part1.Section3.ast_21_24",
+        "Principia.Part1.Section3.ast_21_25",
+        "Principia.Part1.Section3.ast_21_3",
+        "Principia.Part1.Section3.ast_21_31",
+        "Principia.Part1.Section3.ast_21_32",
+        "Principia.Part1.Section3.ast_21_34",
+        "Principia.Part1.Section3.ast_21_35",
+        "Principia.Part1.Section3.ast_21_4",
+        "Principia.Part1.Section3.ast_21_42",
+        "Principia.Part1.Section3.ast_21_43"
+      ],
+      "required_gate": "gokujo-1.0.0",
+      "status": "COMPLETED_ZERO_SORRY",
+      "admitted_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
     }
   ]
 }
