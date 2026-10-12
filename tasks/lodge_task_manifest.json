@@ -84,6 +84,37 @@
         "Classical.choice",
         "Quot.sound"
       ]
+    },
+    {
+      "task_id": "GDT-GENERAL-DIVISOR-THEOREM",
+      "origin_member": "pcworm",
+      "collaborator_member": "thinkthoughts",
+      "repo": "pCwOrM/general-divisor-theorem",
+      "title": "General Divisor Theorem (GDT): Exact Density Correction under Residue Conditioning in Lean 4",
+      "target_file": "GeneralDivisorTheorem.lean",
+      "theorems": [
+        "GeneralDivisorTheorem.inadmissible_empty_criterion",
+        "GeneralDivisorTheorem.indicator_factorization",
+        "GeneralDivisorTheorem.T_min_is_period",
+        "GeneralDivisorTheorem.T_min_eq_lcm",
+        "GeneralDivisorTheorem.exponent_blindness",
+        "GeneralDivisorTheorem.C_factor_prime_product",
+        "GeneralDivisorTheorem.specialization_divides",
+        "GeneralDivisorTheorem.specialization_unitary",
+        "GeneralDivisorTheorem.specialization_primorial",
+        "GeneralDivisorTheorem.instance_m6_C",
+        "GeneralDivisorTheorem.instance_m10_C",
+        "GeneralDivisorTheorem.instance_m30_C",
+        "GeneralDivisorTheorem.instance_minimal_period_18_2",
+        "GeneralDivisorTheorem.instance_sharp_admissibility_5_6"
+      ],
+      "required_gate": "gokujo-1.0.0",
+      "status": "COMPLETED_ZERO_SORRY",
+      "admitted_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
     }
   ]
 }
