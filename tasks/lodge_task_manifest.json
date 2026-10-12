@@ -115,6 +115,35 @@
         "Classical.choice",
         "Quot.sound"
       ]
+    },
+    {
+      "task_id": "NIEMEIER-A8-UMBRAL-MOONSHINE",
+      "origin_member": "pcworm",
+      "repo": "pCwOrM/niemeier-a8-umbral-moonshine",
+      "zenodo_doi": "10.5281/zenodo.23324066",
+      "title": "Machine-Certified Formalization of 24D Niemeier Lattice A_8^3, K3 Hodge Duality & Umbral Moonshine",
+      "target_file": "NiemeierA8UmbralMoonshine.lean",
+      "theorems": [
+        "NiemeierA8.rank_niemeier_eq_24",
+        "NiemeierA8.coxeter_A8_eq_nine",
+        "NiemeierA8.num_roots_niemeier_eq_216",
+        "NiemeierA8.det_root_sublattice_eq_729",
+        "NiemeierA8.glue_order_sq_eq_det",
+        "NiemeierA8.glue_gen_is_even_integer",
+        "NiemeierA8.det_niemeier_unimodular",
+        "NiemeierA8.chi_K3_equals_niemeier_rank",
+        "NiemeierA8.lambency_eq_nine",
+        "NiemeierA8.mock_weight",
+        "NiemeierA8.shadow_weight"
+      ],
+      "required_gate": "gokujo-1.0.0",
+      "status": "COMPLETED_ZERO_SORRY",
+      "admitted_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
     }
   ]
 }
+
